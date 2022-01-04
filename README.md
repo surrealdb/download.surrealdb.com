@@ -20,3 +20,5 @@ Supported architectures with Docker:
 | ------------ | ---------------------------------------------- |
 | `amd64`      | `64bit` Linux `amd` environment                |
 | `arm64`      | `64bit` Linux `arm` environment                |
+
+For Docker builds visit the [SurrealDB repository](https://hub.docker.com/repository/docker/surrealdb/surrealdb) on Docker Hub.
