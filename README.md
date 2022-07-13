@@ -12,7 +12,6 @@ Supported operating systems and architectures:
 | Linux            | `amd64`      | `64bit` build for Unix operating systems       |
 | Linux            | `arm64`      | `64bit` build for Unix operating systems       |
 | Windows          | `amd64`      | `64bit` build for Windows operating system     |
-| Windows          | `arm64`      | `64bit` build for Windows operating system     |
 
 Supported architectures with Docker:
 
