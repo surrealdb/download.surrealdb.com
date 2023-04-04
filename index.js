@@ -37,8 +37,10 @@ exports.main = async (event) => {
 
 	const request = event.Records[0].cf.request;
 	
+	request.uri = request.uri.replace(/\+/g, '%2B');
+
 	if (request.headers['cloudfront-viewer-country']) {
-		
+
 		const code = request.headers['cloudfront-viewer-country'][0].value;
 		
 		let region = location(code);
